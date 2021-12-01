@@ -72,7 +72,7 @@ int day01::solve(const std::string& fileName) {
     
     try {
         std::cout << "Part A:" << std::endl << solve_part_1(values) << std::endl;
-        std::cout << "Part A:" << std::endl << solve_part_2(values) << std::endl;
+        std::cout << "Part B:" << std::endl << solve_part_2(values) << std::endl;
 
         return 0;
 
