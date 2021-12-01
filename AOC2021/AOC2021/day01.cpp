@@ -47,14 +47,6 @@ int solve_part_2(const std::vector<int>& values) {
         auto first = std::accumulate(start, start + 3, 0);
         auto second = std::accumulate(start+1, start + 4, 0);
         start++;
-        auto firstN = values[i] + values[i + 1] + values[i + 2];
-        auto secondN = values[i + 1] + values[i + 2] + values[i + 3];
-
-        if (first != firstN) {
-            std::cout << "!" << first << "x" << firstN;
-        }
-        std::cout << "-" << std::endl;
-        
 
         if (first < second) {
             result++;
